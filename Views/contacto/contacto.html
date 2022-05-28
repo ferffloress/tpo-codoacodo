@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia  ¦  presupuesto</title>
+
+    <!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   
+    <!-- Fuentes Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <header>
+
+      
+        <h1><span class="highlight">Formulario para presupuesto</span></h1>
+        <p style="text-align:center">Completá el siguiente formulario para obtener presupuesto estimado según los servicios que precises. <br>Gracias por tu interés en trabajar juntes! :)</p>
+    </header>
+
+    <form id="formulario">
+      <!-- campo nombre -->
+        <div class="mb-3">
+            <label for="exampleInputName" class="form-label">Nombre</label>
+            <input type="name" class="form-control" id="exampleInputName" aria-describedby="namelHelp">
+            </div>
+    
+        <!-- campo mail -->
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+          <input type="text" class="form-control" id="eInputEmail1" aria-describedby="emailHelp">
+        </div>
+
+        <!-- campo rubro -->
+        <div class="mb-3">
+            <label for="exampleInputRubro" class="form-label">Rubro</label>
+            <input type="rubro" class="form-control" id="exampleInputRubro" aria-describedby="rubrolHelp">
+            <div id="rubroHelp" class="form-text">Área de tu emprendimiento o profesión</div>
+          </div>
+        
+          <div class="mb-3">
+          <label for="exampleCheck" class="form-label">Ya tenés en uso redes de tu marca?</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
+            <label class="form-check-label" for="flexRadioDefault1">
+              Sí
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" required>
+            <label class="form-check-label" for="flexRadioDefault2">
+              No
+            </label>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleCheck" class="form-label">Ya tenés en uso una página web?</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault1" required>
+            <label class="form-check-label" for="flexRadioDefault1">
+              Sí
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2">
+            <label class="form-check-label" for="flexRadioDefault2">
+              No
+            </label>
+        </div>
+    </div>
+
+    <div class="mb-3">
+            <label for="exampleCheck" class="form-label">Cuáles de estos servicios considerás que necesitás?</label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                 Branding
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                <label class="form-check-label" for="flexCheckChecked">
+                Armar los lineamientos generales del proyecto
+                </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                    <label class="form-check-label" for="flexCheckDefault3">
+                     Evaluar lo que venís haciendo
+                    </label>
+                  </div>
+                 <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                    <label class="form-check-label" for="flexCheckDefault4">
+                     Generar ideas de contenido
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+                    <label class="form-check-label" for="flexCheckDefault5">
+                     Delegar las redes
+                    </label>
+                  </div>
+                </div>
+  
+
+
+        <button type="submit" class="btn btn-primary">Pedir presupuesto</button>
+      </form>
+
+      <footer>
+        <div class="volver">
+ <a href="../../index/index.html"><p>Volver a la página principal</p></a>
+        </div>
+        
+        
+        <hr class="linea-footer">
+        <p class="copyright">2022 by Fer Flores. Todos los derechos reservados.</p>
+        </footer>
+<!-- Javascript -->
+<script src="./validacion.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
