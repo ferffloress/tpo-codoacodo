@@ -454,7 +454,7 @@
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 
 .foto-de-perfil {
@@ -466,11 +466,19 @@
   line-height: 1.5;
 }
 
+.iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5%;
+}
+
 /* footer */
 .footer-acerca {
   background-color: #ffdada;
   padding-top: 40px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .copyright-acerca {
